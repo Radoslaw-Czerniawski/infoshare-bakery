@@ -64,7 +64,7 @@ const updateIngredientsAmount = () => {
         buttonBakeAllCookies.querySelector(".button-text").textContent = "No cookies to bake";
     } else {
         buttonBake1Cookie.querySelector(".button-text").textContent = "Bake one cookie";
-        buttonBakeAllCookies.querySelector(".button-text").textContent = "Bake all cookies";
+        buttonBakeAllCookies.querySelector(".button-text").textContent = "Bake max cookies";
     }
 }
 
