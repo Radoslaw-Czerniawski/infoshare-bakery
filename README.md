@@ -2,6 +2,8 @@
 
 Let's try to mimic a popular game from `idle games` genre - [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/), using pure HTML, CSS and JS.
 
+<img src="screenshots/screenshot1.jpg">
+
 ---
 ## Premise
 
