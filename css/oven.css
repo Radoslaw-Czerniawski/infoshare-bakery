@@ -1,0 +1,23 @@
+.raw-cookies-oven-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.oven-wrapper {
+    height: 19rem;
+    width: 19rem;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid black;
+}
+
+.baking-cookie-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    background-color: slategray;
+    cursor: pointer;
+}

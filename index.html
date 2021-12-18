@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/3b77528863.js" crossorigin="anonymous"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/index.css" />
+        <title>Bakery</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="labels-wrapper">
+                <div class="display-amount-wrapper wrapper-label">
+                    <label class="display-amount__label label">Flour [kg]</label>
+
+                    <span class="display-amount__amount label flour-amount">0</span>
+                </div>
+
+                <div class="display-amount-wrapper wrapper-label">
+                    <label class="display-amount__label label">Cookie Balls</label>
+
+                    <span class="display-amount__amount label balls-amount">0</span>
+                </div>
+
+                <div class="display-amount-wrapper wrapper-label">
+                    <label class="display-amount__label label">Raw Cookies</label>
+
+                    <span class="display-amount__amount label rawCookies-amount">0</span>
+                </div>
+
+                <div class="display-amount-wrapper wrapper-label">
+                    <label class="display-amount__label label">Baked Cookies</label>
+
+                    <span class="display-amount__amount label bakedCookies-amount">0</span>
+                </div>
+
+                <div class="display-amount-wrapper wrapper-label">
+                    <label class="display-amount__label label">Earnings [$]</label>
+
+                    <span class="display-amount__amount label earnings-amount">0</span>
+                </div>
+            </div>
+
+            <div class="raw-cookies-oven-wrapper">
+                <div class="cookie-balls"></div>
+
+                <div class="oven-wrapper">
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                    <div class="baking-cookie-slot"></div>
+                </div>
+            </div>
+
+            <div class="buttons-wrapper">
+                <button class="buttons__button-wrapper button-cookie-ball">
+                    <div class="button-loading">
+                        <div class="button-loading__progress"></div>
+                    </div>
+
+                    <span class="button-text">Make dough ball</span>
+                </button>
+
+                <button class="buttons__button-wrapper bake-1-cookie">
+                    <span class="button-text rest">Bake one cookie</span>
+                </button>
+
+                <button class="buttons__button-wrapper bake-all-cookies">
+                    <span class="button-text rest">Bake all cookies</span>
+                </button>
+
+                <button class="buttons__button-wrapper buy-flour">
+                    <span class="button-text rest">Buy flour</span>
+                </button>
+            </div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>

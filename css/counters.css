@@ -1,0 +1,43 @@
+.labels-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrapper-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 15rem;
+    width: 30rem;
+    padding: 0;
+    border-radius: 3rem;
+    background-color: rgb(245, 230, 180);
+}
+
+.wrapper-label:not(:first-child) {
+    margin-left: 5rem;
+}
+
+.label {
+    width: 90%;
+    font-weight: 700;
+    color: #5d98f6;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.display-amount__label {
+    font-size: 2rem;
+}
+
+.display-amount__amount {
+    font-weight: 500;
+    border: 2px solid #5d98f6;
+    color: #f5aa09;
+    border-radius: 1rem;
+    width: 9rem;
+    margin-top: 1.5rem;
+}
