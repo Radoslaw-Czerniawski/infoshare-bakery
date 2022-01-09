@@ -11,7 +11,8 @@ You run a bakery and your job is to make as many cookies as possible using:
 
     - old grid furnace,
     - 100kg of flour,
-    - magical recipe for making cookies using only flour, (using only 10kg of flour you are able to make 20 raw cookies / 1 big dough ball)
+    - magical recipe for making cookies using only flour,
+      (using only 10kg of flour you are able to make 20 raw cookies / 1 big dough ball)
 ----
 ## The Process
 
@@ -27,9 +28,11 @@ Process of making cookies is complex and consists of these steps;
 ----
     a) There should be a button that can start a process of making a dough balls
 
-    b) There should be a making dough ball progress bar that starts to fill up upon pressing the Make dough ball button.
+    b) There should be a making dough ball progress bar that starts to fill up 
+       upon pressing the Make dough ball button.
 
-    c) The process of making the dough balls should take 4 seconds, the process shuld be stoppable.
+    c) The process of making the dough balls should take 4 seconds, 
+       the process shuld be stoppable.
 
 ### Task 2
 ----
@@ -65,11 +68,14 @@ Raw cookies need to be put in the grid oven and baked
 
     b) The grid oven should be visible with 9 slots for cookies.
 
-    c) The new buttons should work adequately to their names (put appropriate amount of cookies to the oven).
+    c) The new buttons should work adequately to their names 
+       (put appropriate amount of cookies to the oven).
 
-    d) Slots in the grid oven should be filled with cookies upon pressing the appropriate buttons.
+    d) Slots in the grid oven should be filled with cookies upon 
+       pressing the appropriate buttons.
 
-    d) The new buttons should display message "No cookies to bake" if there are no raw cookies to bake.
+    d) The new buttons should display message "No cookies to bake" 
+       if there are no raw cookies to bake.
 
     e) Update displayed ingredients amounts.
 
@@ -89,17 +95,21 @@ Oven should bake cookies inside of it.
 
     c) If cookie spent too much time in the oven it should vanish
 
-    d) Cookies in the oven should be clickable, if cookie is brown after clicking it should add up to the new counter "Baked cookies".
+    d) Cookies in the oven should be clickable, if cookie is brown after 
+       clicking it should add up to the new counter "Baked cookies".
 
-    e) Cookies in the oven while being a different color than brown upon clicking should disappear and not add up to Baked cookies counter
+    e) Cookies in the oven while being a different color than brown upon 
+       clicking should disappear and not add up to Baked cookies counter
 
 ### Task 6
 ---
 Baked cookies should be sold.
 
-    a) Baked cookies (if available) should be sold in random time intervals between 3-6 seconds and random amount between 1 - 10 cookies.
+    a) Baked cookies (if available) should be sold in random time intervals 
+       between 3-6 seconds and random amount between 1 - 10 cookies.
 
-    b) The price for a single cookie should be 5$, if selling more than 5 in one transaction the price should be 4$ (discount).
+    b) The price for a single cookie should be 5$, if selling more than 
+       5 in one transaction the price should be 4$ (discount).
 
     c) The amount of earned money should be displayed.
 
